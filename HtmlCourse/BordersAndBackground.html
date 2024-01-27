@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders and Background</title>
+    <!-- ----Style in CSS----- -->
+    <style>
+#FirstPara{
+    color: aliceblue;
+    background-color: rgb(128, 15, 15);
+    height: 70px;
+    width: 800px;
+
+    /* ---------------------------------------------------Border CSS Styling--------------------------------------------------------- */
+    border-width: 5px;
+    border-color:black;
+    border-style: solid;
+     border-radius: 12px;
+}
+
+/* can be used on diffreent lines or same line..... */
+
+ .Heading{
+
+    color: black;
+    background-color: rgb(102, 102, 194);
+   
+    border-top:5px solid black;
+    border-left:4px solid blue;
+    border-right:5px solid yellow;
+    border-bottom:3px solid orange;
+    border-top-right-radius: 15px;
+}
+
+ .Image{
+height: 400px;
+width: 900px;
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg);
+border: 3px solid black;
+background-position: center center;
+}
+
+    </style>
+</head>
+<body>
+
+    <h4 class="Image">Heading for Image as backgroung</h4>
+    <h1 class="Heading">Height, Width , Borders and Background</h1>
+
+    <p id="FirstPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis cumque cupiditate iusto recusandae, voluptatum laboriosam totam iste facilis pariatur aspernatur ipsa aut beatae vero enim quo, provident laborum, in ipsum.</p>
+    
+</body>
+</html>

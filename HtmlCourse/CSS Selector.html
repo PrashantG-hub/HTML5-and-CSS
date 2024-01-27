@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+
+    <style>
+#blueelement{          /* ID is given by # in stylesheet */
+    color: cornflowerblue;
+    background-color: darkkhaki;
+}
+
+.redelement{         /* Class is given by . in stylesheet  */
+    color: cadetblue;
+    background-color:black;
+}
+
+
+/* ----------------------------------------------Grouping Selector--------------------------------------------------------------- */
+footer,span{
+    background-color: blanchedalmond;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+#span{
+    color: blue;
+}
+    </style>
+</head>
+<body>
+    
+<h3>CSS Selector Content</h3>
+
+<p class="redelement">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos corporis</p> <!--class added for styling------ -->
+
+
+<p id="blueelement">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><!-- ---------------------ID added for styling--- -->
+
+<span id="span">This is a span </span>
+<footer>This is a footer</footer>
+
+</body>
+</html>

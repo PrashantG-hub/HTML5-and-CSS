@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tutorial</title>
+</head>
+<body>
+
+    <h2> HTML form tutorial</h2>
+    <form action="backend.CSharp">
+
+    
+        <div>                      <!-- ------------div= division tag --to get each element in new line------------- -->
+            <label for="name"> Name</label>     <!-- ---Id and For will be always same---------- -->
+            <input type="text" name="myName" id="name">     
+            <!-- here name="myDate" ---is used to get connected with Backend databse, Same with others -->
+        </div>
+    <br>
+
+        <div>
+            <label for="Designation"> Designation</label>
+            <input type="text" name="myDesignation" id="Designation">
+        </div>
+    <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="myEmail" id="email">
+        </div>
+    <br>
+
+    <div>
+        <label for="Date">Date</label>
+       <input type="date" name="myDate" id="Date">
+       <!-- date format -->
+    </div>
+    <br>
+
+    <div>
+        <label for="bonus">Bonus</label>
+         <input type="number" name="myBonus" id="bonus">
+        <!-- type=number -----------only number can be input  -->
+    </div>
+<br>
+
+    <div>
+        <label for="Eligibility">Are you 18 or above?</label>
+        <input type="checkbox" name="Eligibility" id="Eligibility">
+    </div>
+    <br>
+
+    
+    
+    <div>
+        <label for="gender"> Gender</label>
+        <div>
+          Male <input type="radio" name="myGender" id="gender">
+          Female <input type="radio" name="myGender" id="gender">
+          Others <input type="radio" name="myGender" id="gender">
+      </div>  
+<br>
+
+<div>
+    <label for="description">Describe Yourself</label>
+    <div>
+        <textarea name="myText"  cols="30" rows="10" id="description"></textarea>
+    </div>
+</div>  
+<br>
+
+<div>
+    <label for="Mobile"> Mobile</label>
+    <select name="myMobile" id="Mobile">
+        <option value="Redmi" selected>Redmi Note 4</option>
+        <option value="Jio">Jio Phone</option>
+        <option value="Realme">Realme 5</option>
+        <option value="Apple">Iphone 11</option>
+        <option value="Samsung">Samsung Galaxy 11</option>
+    </select>
+</div>  
+<br>
+
+        <div>
+            <input type="Submit" value="Submit">  
+            <!-- Here type=should be the action being performed -->
+            <input type="Reset" value="Reset">
+        </div>
+
+
+    </form>
+
+
+    
+</body>
+</html>
